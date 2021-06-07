@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rrvq.aritmetica">
+
+    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JuegoDeAritmética"
+        android:usesCleartextTraffic="true">
+
+        <activity android:name=".puntaje.MainActivity2_Puntajes"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".MainActivity2_Premium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".combinados.NivelesCombinados"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Combinados" />
+        <activity
+            android:name=".combinados.MainActivity2_Combinados"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Combinados" />
+        <activity
+            android:name=".divicion.NivelesDivicion"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Division" />
+        <activity
+            android:name=".divicion.MainActivity2_Divicion"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Division" />
+        <activity
+            android:name=".multiplicacion.NivelesMultiplicacion"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Multiplicacion" />
+        <activity
+            android:name=".multiplicacion.MainActivity2_Multiplicacion"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Multiplicacion" />
+        <activity
+            android:name=".restas.NivelesRestas"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Restas" />
+        <activity
+            android:name=".restas.MainActivity2_Restas"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.Restas" />
+        <activity
+            android:name=".sumas.NivelesSumas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sumas.MainActivity2_Sumas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Splash_Scream"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity2_Principal"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustNothing" />
+        <!--
+ Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713
+         este es mio ca-app-pub-3019606122027900~7098734897
+        -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3019606122027900~7098734897" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

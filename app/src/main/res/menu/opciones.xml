@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu"
+        android:icon="@drawable/ic_more_vert_24"
+        app:showAsAction="always" >
+
+        <menu>
+
+            <item android:id="@+id/itemEliminar"
+                android:icon="@drawable/ic_delete_forever_24"
+                android:title="@string/eliminarAds" />
+
+            <item android:id="@+id/itemPuntaje"
+                android:icon="@drawable/ic_format_list_bulleted_24"
+                android:title="@string/puntaje" />
+
+            <item android:id="@+id/itemCerrar"
+                android:icon="@drawable/ic_exit_to_app_24"
+                android:title="@string/cerrarsesion" />
+
+        </menu>
+    </item>
+
+</menu>

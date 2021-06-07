@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jogo de aritmética</string>
+    <string name="aritmetica">Aritmética</string>
+
+    <!--    Este es mi baner-->
+        <string name="banner">ca-app-pub-3019606122027900/5303626865</string>
+    <!--    este es prueba-->
+<!--    <string name="banner">ca-app-pub-3940256099942544/6300978111</string>-->
+    <!--    +++++++++++++++++++++++++++++++++-->
+    <!--    Este es mi Intersticial-->
+        <string name="intersticial">ca-app-pub-3019606122027900/8171680395</string>
+    <!--    este es prueba-->
+<!--    <string name="intersticial">ca-app-pub-3940256099942544/1033173712</string>-->
+
+
+    <!--    ITems-->
+    <string name="eliminarAds">Remover ADS</string>
+    <string name="puntajeTotal">Pontuação total</string>
+    <string name="puntajeSuma">Pontuação</string>
+    <string name="puntajeResta">Pontuação</string>
+    <string name="puntajeMultiplicacion">Pontuação</string>
+    <string name="puntajeDivision">Pontuação</string>
+    <string name="puntaje">Pontuação</string>
+    <string name="cerrarsesion">Fechar Sessão</string>
+    <string name="nombre">Nome</string>
+    <string name="cero">0</string>
+    <string name="ochenta">80</string>
+    <string name="secenta">60</string>
+    <string name="menu">Cardápio</string>
+    <string name="cerrar">Desligar</string>
+    <string name="puntos">Pontos :</string>
+    <string name="menorque">&lt;</string>
+    <string name="mayorque">&gt;</string>
+
+    <string name="desbloquear">Desbloqueado</string>
+
+    <!--    Matematicas-->
+    <string name="descripcion">Descrição</string>
+    <string name="ingresenombre">Insira o nome</string>
+    <string name="comenzar">Começar</string>
+    <string name="bienvenido">receber</string>
+
+    <string name="sumas">Somas</string>
+    <string name="restas">Subtração</string>
+    <string name="multiplicacion">Multiplicação</string>
+    <string name="division">Divisão</string>
+    <string name="combinadas">Combinado</string>
+
+    <string name="segurodecerrar">Tem certeza de que deseja sair?</string>
+    <string name="perderaprogreso">Todo o progresso feito será perdido e apenas o nome permanecerá na tabela de classificação</string>
+    <string name="si">SIM</string>
+    <string name="no">NÃO</string>
+
+    <!--    niveles-->
+
+    <string name="uno">1</string>
+    <string name="dos">2</string>
+    <string name="tres">3</string>
+    <string name="cuatro">4</string>
+    <string name="cinco">5</string>
+    <string name="seis">6</string>
+    <string name="siete">7</string>
+    <string name="ocho">8</string>
+    <string name="nueve">9</string>
+    <string name="diez">10</string>
+
+    <string name="suma">+</string>
+    <string name="resta">-</string>
+    <string name="por">*</string>
+    <string name="x">x</string>
+    <string name="divicion">/</string>
+    <string name="igual">=</string>
+
+    <string name="ingreseNumero">Insira um número</string>
+    <string name="continuar">Prosseguir</string>
+    <string name="parasuperalo">Para superá-lo você precisa : </string>
+    <string name="noventaomas">8 pontos ou mais</string>
+    <string name="nivelSuperado">Nível completo</string>
+    <string name="nivelPerdido">Nível Perdido</string>
+    <string name="nivel">Nível </string>
+    <string name="puntosAnteriores">Pontos anteriores :</string>
+    <string name="masde10">Com 10 pontos perfeitos \n você pode continuar o nível</string>
+
+    <string name="versionPremium">Versão premium</string>
+    <string name="eliminarAnuncios">Remover todos os anúncios por </string>
+    <string name="adquirir">Adquirir</string>
+
+    <string name="usuarioPremium">O usuário já é PREMIUM</string>
+    <string name="desconectadodelpago">Desconectado do Google Play</string>
+    <string name="erespremium">Você já é PREMIUM</string>
+    <string name="premiumBuscado">Premium pesquisado em PREF</string>
+    <string name="conexion">Erro de conexão</string>
+
+    <string name="general">em geral</string>
+    <string name="pais">País</string>
+    <string name="posgeneral">POS geral</string>
+    <string name="pospais">POS País</string>
+    <string name="pos">POS</string>
+    <string name="sindatos">Não há registros</string>
+    <string name="precionadenuevo">Pressione novamente</string>
+
+
+    <!--    URLS para guardar en volley-->
+    <string name="urlGuardarDatos">http://rrvqlistacompras.freevar.com/Juego_de_Aritmetica/guardaDatosJAritmetica.php</string>
+    <string name="urlActualizaDatos">http://rrvqlistacompras.freevar.com/Juego_de_Aritmetica/actualizaPuntos.php</string>
+    <string name="urlBuscarDatos">http://rrvqlistacompras.freevar.com/Juego_de_Aritmetica/buscarPuntos.php</string>
+
+</resources>

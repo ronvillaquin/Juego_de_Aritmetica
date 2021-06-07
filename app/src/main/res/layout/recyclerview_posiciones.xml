@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:paddingBottom="2dp">
+
+        <TextView
+            android:id="@+id/tvPos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:text="@string/cero"/>
+
+        <TextView
+            android:id="@+id/tvNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/nombre"/>
+
+        <TextView
+            android:id="@+id/tvpuntaje"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/cero"/>
+
+        <!--<ImageView
+            android:id="@+id/imgIcono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:src="@drawable/ic_person_32"
+            android:contentDescription="@string/descripcion"/>-->
+
+        <com.haipq.android.flagkit.FlagImageView
+            android:id="@+id/imgIcono"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="10dp"
+            app:countryCode="VE"
+            android:src="@drawable/flag_ve"/>
+
+
+
+        <!--<TextView
+            android:id="@+id/tvPais"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/purple_500"
+            android:text="@string/cero"/>-->
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/linearDivisor"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grisClaro"
+        android:paddingHorizontal="5dp"
+        android:orientation="horizontal"/>
+
+</LinearLayout>
